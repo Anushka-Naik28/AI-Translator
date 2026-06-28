@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+
+# Local env files (Contains API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Compiled outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
